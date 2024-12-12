@@ -1,0 +1,714 @@
+CRITICAL - 2024-05-23 12:35:34 --> ArgumentCountError: Too few arguments to function App\Models\ModelBooking::getriwayat(), 0 passed in C:\xampp\htdocs\api\app\Controllers\Booking.php on line 49 and exactly 1 expected
+in APPPATH\Models\ModelBooking.php on line 57.
+ 1 APPPATH\Controllers\Booking.php(49): App\Models\ModelBooking->getriwayat()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 12:35:41 --> ArgumentCountError: Too few arguments to function App\Models\ModelBooking::getriwayat(), 0 passed in C:\xampp\htdocs\api\app\Controllers\Booking.php on line 49 and exactly 1 expected
+in APPPATH\Models\ModelBooking.php on line 57.
+ 1 APPPATH\Controllers\Booking.php(49): App\Models\ModelBooking->getriwayat()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 12:36:26 --> ArgumentCountError: Too few arguments to function App\Models\ModelBooking::getriwayat(), 0 passed in C:\xampp\htdocs\api\app\Controllers\Booking.php on line 49 and exactly 1 expected
+in APPPATH\Models\ModelBooking.php on line 57.
+ 1 APPPATH\Controllers\Booking.php(49): App\Models\ModelBooking->getriwayat()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 12:36:29 --> ArgumentCountError: Too few arguments to function App\Models\ModelBooking::getriwayat(), 0 passed in C:\xampp\htdocs\api\app\Controllers\Booking.php on line 49 and exactly 1 expected
+in APPPATH\Models\ModelBooking.php on line 57.
+ 1 APPPATH\Controllers\Booking.php(49): App\Models\ModelBooking->getriwayat()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 12:42:25 --> ArgumentCountError: Too few arguments to function App\Models\ModelBooking::getriwayat(), 0 passed in C:\xampp\htdocs\api\app\Controllers\Booking.php on line 49 and exactly 1 expected
+in APPPATH\Models\ModelBooking.php on line 57.
+ 1 APPPATH\Controllers\Booking.php(49): App\Models\ModelBooking->getriwayat()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 12:44:19 --> ErrorException: Undefined variable $customer_id
+in APPPATH\Controllers\Booking.php on line 48.
+ 1 APPPATH\Controllers\Booking.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer_id', 'C:\\xampp\\htdocs\\api\\app\\Controllers\\Booking.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 12:49:39 --> TypeError: mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, 1 given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(154): mysqli_result->fetch_object('1')
+ 2 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('1')
+ 3 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('1')
+ 4 APPPATH\Models\ModelBooking.php(63): CodeIgniter\Database\BaseResult->getResult('1')
+ 5 APPPATH\Controllers\Booking.php(48): App\Models\ModelBooking->getriwayat('1')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 12:56:33 --> TypeError: mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, 2 given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(154): mysqli_result->fetch_object('2')
+ 2 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('2')
+ 3 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('2')
+ 4 APPPATH\Models\ModelBooking.php(63): CodeIgniter\Database\BaseResult->getResult('2')
+ 5 APPPATH\Controllers\Booking.php(48): App\Models\ModelBooking->getriwayat('2')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 12:56:44 --> TypeError: mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, 1 given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(154): mysqli_result->fetch_object('1')
+ 2 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('1')
+ 3 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('1')
+ 4 APPPATH\Models\ModelBooking.php(63): CodeIgniter\Database\BaseResult->getResult('1')
+ 5 APPPATH\Controllers\Booking.php(48): App\Models\ModelBooking->getriwayat('1')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 12:56:57 --> TypeError: mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, 1 given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(154): mysqli_result->fetch_object('1')
+ 2 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject('1')
+ 3 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('1')
+ 4 APPPATH\Models\ModelBooking.php(63): CodeIgniter\Database\BaseResult->getResult('1')
+ 5 APPPATH\Controllers\Booking.php(48): App\Models\ModelBooking->getriwayat('1')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:01:16 --> ErrorException: Undefined property: App\Controllers\Booking::$modelBooking
+in APPPATH\Controllers\Booking.php on line 48.
+ 1 APPPATH\Controllers\Booking.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Booking::$modelBooking', 'C:\\xampp\\htdocs\\api\\app\\Controllers\\Booking.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:01:51 --> ErrorException: Undefined property: App\Controllers\Booking::$modelBooking
+in APPPATH\Controllers\Booking.php on line 48.
+ 1 APPPATH\Controllers\Booking.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Booking::$modelBooking', 'C:\\xampp\\htdocs\\api\\app\\Controllers\\Booking.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:02:11 --> ErrorException: Undefined property: App\Controllers\Booking::$ModelBooking
+in APPPATH\Controllers\Booking.php on line 48.
+ 1 APPPATH\Controllers\Booking.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Booking::$ModelBooking', 'C:\\xampp\\htdocs\\api\\app\\Controllers\\Booking.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:05:55 --> ParseError: Unmatched '}'
+in APPPATH\Models\ModelBooking.php on line 79.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\api\\app\\Models\\ModelBooking.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ModelBooking')
+ 3 APPPATH\Controllers\Booking.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ModelBooking')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Booking->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:06:07 --> ParseError: Unmatched '}'
+in APPPATH\Models\ModelBooking.php on line 79.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\api\\app\\Models\\ModelBooking.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ModelBooking')
+ 3 APPPATH\Controllers\Booking.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ModelBooking')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Booking->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:06:12 --> ParseError: Unmatched '}'
+in APPPATH\Models\ModelBooking.php on line 79.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\api\\app\\Models\\ModelBooking.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ModelBooking')
+ 3 APPPATH\Controllers\Booking.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ModelBooking')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Booking->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:06:23 --> ParseError: Unmatched '}'
+in APPPATH\Models\ModelBooking.php on line 79.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\api\\app\\Models\\ModelBooking.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ModelBooking')
+ 3 APPPATH\Controllers\Booking.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ModelBooking')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Booking->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:06:50 --> ParseError: Unmatched '}'
+in APPPATH\Models\ModelBooking.php on line 79.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\api\\app\\Models\\ModelBooking.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ModelBooking')
+ 3 APPPATH\Controllers\Booking.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ModelBooking')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Booking->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:07:14 --> TypeError: CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\api\system\Model.php on line 243
+in SYSTEMPATH\Database\BaseResult.php on line 104.
+ 1 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Models\ModelBooking.php(68): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Booking.php(48): App\Models\ModelBooking->getRiwayat('1')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:09:13 --> BadMethodCallException: Call to undefined method App\Models\ModelBooking::getResult
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Models\ModelBooking.php(71): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\Booking.php(48): App\Models\ModelBooking->getRiwayat('1')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:10:21 --> ParseError: syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+in APPPATH\Models\ModelBooking.php on line 72.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\api\\app\\Models\\ModelBooking.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ModelBooking')
+ 3 APPPATH\Controllers\Booking.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ModelBooking')
+ 4 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Booking->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 13:11:15 --> mysqli_sql_exception: Unknown column '$customer_id' in 'where clause' in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM b...', 0)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM b...')
+#2 C:\xampp\htdocs\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM b...')
+#3 C:\xampp\htdocs\api\app\Models\ModelBooking.php(70): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#4 C:\xampp\htdocs\api\app\Controllers\Booking.php(48): App\Models\ModelBooking->getRiwayat('1')
+#5 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+#6 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 13:11:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$customer_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\ModelBooking.php(70): CodeIgniter\Database\BaseConnection->query('SELECT * FROM booking where $customer_id')
+ 2 APPPATH\Controllers\Booking.php(48): App\Models\ModelBooking->getRiwayat('1')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:11:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$customer_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM booking where $customer_id')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM booking where $customer_id')
+ 3 APPPATH\Models\ModelBooking.php(70): CodeIgniter\Database\BaseConnection->query('SELECT * FROM booking where $customer_id')
+ 4 APPPATH\Controllers\Booking.php(48): App\Models\ModelBooking->getRiwayat('1')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:11:15 --> [Caused by] mysqli_sql_exception: Unknown column '$customer_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM booking where $customer_id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM booking where $customer_id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM booking where $customer_id')
+ 4 APPPATH\Models\ModelBooking.php(70): CodeIgniter\Database\BaseConnection->query('SELECT * FROM booking where $customer_id')
+ 5 APPPATH\Controllers\Booking.php(48): App\Models\ModelBooking->getRiwayat('1')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:14:01 --> TypeError: CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\api\system\Model.php on line 243
+in SYSTEMPATH\Database\BaseResult.php on line 104.
+ 1 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Models\ModelBooking.php(70): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Booking.php(48): App\Models\ModelBooking->getRiwayat('1')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:17:04 --> TypeError: CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\api\system\Model.php on line 243
+in SYSTEMPATH\Database\BaseResult.php on line 104.
+ 1 SYSTEMPATH\Model.php(243): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 3 APPPATH\Models\ModelBooking.php(69): CodeIgniter\BaseModel->findAll()
+ 4 APPPATH\Controllers\Booking.php(48): App\Models\ModelBooking->getRiwayat('1')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:20:07 --> BadMethodCallException: Call to undefined method App\Models\ModelBooking::getRiwayat
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Booking.php(48): CodeIgniter\Model->__call('getRiwayat', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 13:44:06 --> mysqli_sql_exception: Column 'tanggal' cannot be null in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\xampp\htdocs\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\xampp\htdocs\api\app\Models\ModelBooking.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\api\app\Controllers\Booking.php(38): App\Models\ModelBooking->insert_booking(Array)
+#6 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\Booking->insert()
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-23 13:44:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (:tanggal:, :jam:, :service:, :kecamatan:, :alamat:, :akomodasi:, :status:, :customer_id:, :menu_id:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\ModelBooking.php(49): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Booking.php(38): App\Models\ModelBooking->insert_booking([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:44:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tanggal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (NULL, \'20.03\', \'Home Service\', \'ajung\', \'ajung\', \'25000\', \'belum bayar\', \'1\', \'1\', \'20-04-2002\', \'22-04-2001\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (NULL, \'20.03\', \'Home Service\', \'ajung\', \'ajung\', \'25000\', \'belum bayar\', \'1\', \'1\', \'20-04-2002\', \'22-04-2001\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (:tanggal:, :jam:, :service:, :kecamatan:, :alamat:, :akomodasi:, :status:, :customer_id:, :menu_id:, :created_at:, :updated_at:)', [...], false)
+ 4 APPPATH\Models\ModelBooking.php(49): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Booking.php(38): App\Models\ModelBooking->insert_booking([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:44:06 --> [Caused by] mysqli_sql_exception: Column 'tanggal' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (NULL, \'20.03\', \'Home Service\', \'ajung\', \'ajung\', \'25000\', \'belum bayar\', \'1\', \'1\', \'20-04-2002\', \'22-04-2001\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (NULL, \'20.03\', \'Home Service\', \'ajung\', \'ajung\', \'25000\', \'belum bayar\', \'1\', \'1\', \'20-04-2002\', \'22-04-2001\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (NULL, \'20.03\', \'Home Service\', \'ajung\', \'ajung\', \'25000\', \'belum bayar\', \'1\', \'1\', \'20-04-2002\', \'22-04-2001\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (:tanggal:, :jam:, :service:, :kecamatan:, :alamat:, :akomodasi:, :status:, :customer_id:, :menu_id:, :created_at:, :updated_at:)', [...], false)
+ 5 APPPATH\Models\ModelBooking.php(49): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Booking.php(38): App\Models\ModelBooking->insert_booking([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->insert()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 15:43:08 --> mysqli_sql_exception: Unknown column 'menu_id' in 'field list' in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\xampp\htdocs\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\xampp\htdocs\api\app\Models\ModelBooking.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\api\app\Controllers\Booking.php(38): App\Models\ModelBooking->insert_booking(Array)
+#6 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\Booking->insert()
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-23 15:43:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'menu_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (:tanggal:, :jam:, :service:, :kecamatan:, :alamat:, :akomodasi:, :status:, :customer_id:, :menu_id:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\ModelBooking.php(49): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Booking.php(38): App\Models\ModelBooking->insert_booking([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 15:43:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'menu_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (\'2024-05-23\', \'09:00-10:00\', \'Salon Service\', \'Jenggawah\', \'gtgyhh\', \'0\', \'belum bayar\', \'1\', NULL, \'2024-05-23 22:42:49.339989\', \'2024-05-23 22:42:49.339989\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (\'2024-05-23\', \'09:00-10:00\', \'Salon Service\', \'Jenggawah\', \'gtgyhh\', \'0\', \'belum bayar\', \'1\', NULL, \'2024-05-23 22:42:49.339989\', \'2024-05-23 22:42:49.339989\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (:tanggal:, :jam:, :service:, :kecamatan:, :alamat:, :akomodasi:, :status:, :customer_id:, :menu_id:, :created_at:, :updated_at:)', [...], false)
+ 4 APPPATH\Models\ModelBooking.php(49): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Booking.php(38): App\Models\ModelBooking->insert_booking([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 15:43:08 --> [Caused by] mysqli_sql_exception: Unknown column 'menu_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (\'2024-05-23\', \'09:00-10:00\', \'Salon Service\', \'Jenggawah\', \'gtgyhh\', \'0\', \'belum bayar\', \'1\', NULL, \'2024-05-23 22:42:49.339989\', \'2024-05-23 22:42:49.339989\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (\'2024-05-23\', \'09:00-10:00\', \'Salon Service\', \'Jenggawah\', \'gtgyhh\', \'0\', \'belum bayar\', \'1\', NULL, \'2024-05-23 22:42:49.339989\', \'2024-05-23 22:42:49.339989\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (\'2024-05-23\', \'09:00-10:00\', \'Salon Service\', \'Jenggawah\', \'gtgyhh\', \'0\', \'belum bayar\', \'1\', NULL, \'2024-05-23 22:42:49.339989\', \'2024-05-23 22:42:49.339989\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `menu_id`, `created_at`, `updated_at`) VALUES (:tanggal:, :jam:, :service:, :kecamatan:, :alamat:, :akomodasi:, :status:, :customer_id:, :menu_id:, :created_at:, :updated_at:)', [...], false)
+ 5 APPPATH\Models\ModelBooking.php(49): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Booking.php(38): App\Models\ModelBooking->insert_booking([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->insert()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 16:20:14 --> mysqli_sql_exception: Column 'nama_treatment' cannot be null in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\xampp\htdocs\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\xampp\htdocs\api\app\Models\ModelBooking.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\api\app\Controllers\Booking.php(44): App\Models\ModelBooking->insert_booking(Array)
+#6 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\Booking->insert()
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-23 16:20:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_treatment' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `nama_treatment`, `created_at`, `updated_at`) VALUES (:tanggal:, :jam:, :service:, :kecamatan:, :alamat:, :akomodasi:, :status:, :customer_id:, :nama_treatment:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\ModelBooking.php(49): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Booking.php(44): App\Models\ModelBooking->insert_booking([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 16:20:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama_treatment' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `nama_treatment`, `created_at`, `updated_at`) VALUES (\'20-03-2050\', \'20.03\', \'Home Service\', \'ajung\', \'ajung\', \'25000\', \'belum bayar\', \'1\', NULL, \'20-04-2002\', \'22-04-2001\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `nama_treatment`, `created_at`, `updated_at`) VALUES (\'20-03-2050\', \'20.03\', \'Home Service\', \'ajung\', \'ajung\', \'25000\', \'belum bayar\', \'1\', NULL, \'20-04-2002\', \'22-04-2001\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `nama_treatment`, `created_at`, `updated_at`) VALUES (:tanggal:, :jam:, :service:, :kecamatan:, :alamat:, :akomodasi:, :status:, :customer_id:, :nama_treatment:, :created_at:, :updated_at:)', [...], false)
+ 4 APPPATH\Models\ModelBooking.php(49): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Booking.php(44): App\Models\ModelBooking->insert_booking([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 16:20:14 --> [Caused by] mysqli_sql_exception: Column 'nama_treatment' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `nama_treatment`, `created_at`, `updated_at`) VALUES (\'20-03-2050\', \'20.03\', \'Home Service\', \'ajung\', \'ajung\', \'25000\', \'belum bayar\', \'1\', NULL, \'20-04-2002\', \'22-04-2001\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `nama_treatment`, `created_at`, `updated_at`) VALUES (\'20-03-2050\', \'20.03\', \'Home Service\', \'ajung\', \'ajung\', \'25000\', \'belum bayar\', \'1\', NULL, \'20-04-2002\', \'22-04-2001\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `nama_treatment`, `created_at`, `updated_at`) VALUES (\'20-03-2050\', \'20.03\', \'Home Service\', \'ajung\', \'ajung\', \'25000\', \'belum bayar\', \'1\', NULL, \'20-04-2002\', \'22-04-2001\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `booking` (`tanggal`, `jam`, `service`, `kecamatan`, `alamat`, `akomodasi`, `status`, `customer_id`, `nama_treatment`, `created_at`, `updated_at`) VALUES (:tanggal:, :jam:, :service:, :kecamatan:, :alamat:, :akomodasi:, :status:, :customer_id:, :nama_treatment:, :created_at:, :updated_at:)', [...], false)
+ 5 APPPATH\Models\ModelBooking.php(49): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Booking.php(44): App\Models\ModelBooking->insert_booking([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->insert()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 19:09:11 --> mysqli_sql_exception: Column 'nomor_hp' cannot be null in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\api\app\Models\ModelUser.php(40): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\api\app\Controllers\login.php(56): App\Models\ModelUser->insert_user(Array)
+#6 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\login->insert()
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-23 19:09:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nomor_hp' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (:email:, :name:, :password:, :nomor_hp:)', [...], false)
+ 2 APPPATH\Models\ModelUser.php(40): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\login.php(56): App\Models\ModelUser->insert_user([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\login->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 19:09:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nomor_hp' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (\'fasta@gmail.com\', \'fasta\', \'123\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (\'fasta@gmail.com\', \'fasta\', \'123\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (:email:, :name:, :password:, :nomor_hp:)', [...], false)
+ 4 APPPATH\Models\ModelUser.php(40): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\login.php(56): App\Models\ModelUser->insert_user([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\login->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 19:09:11 --> [Caused by] mysqli_sql_exception: Column 'nomor_hp' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (\'fasta@gmail.com\', \'fasta\', \'123\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (\'fasta@gmail.com\', \'fasta\', \'123\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (\'fasta@gmail.com\', \'fasta\', \'123\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (:email:, :name:, :password:, :nomor_hp:)', [...], false)
+ 5 APPPATH\Models\ModelUser.php(40): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\login.php(56): App\Models\ModelUser->insert_user([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\login->insert()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 19:12:42 --> ErrorException: Undefined property: App\Controllers\login::$StokModel
+in APPPATH\Controllers\login.php on line 96.
+ 1 APPPATH\Controllers\login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\login::$StokModel', 'C:\\xampp\\htdocs\\api\\app\\Controllers\\login.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\login->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 19:13:39 --> ErrorException: Undefined variable $password
+in APPPATH\Controllers\login.php on line 74.
+ 1 APPPATH\Controllers\login.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $password', 'C:\\xampp\\htdocs\\api\\app\\Controllers\\login.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\login->reset()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 19:13:59 --> mysqli_sql_exception: Column 'nomor_hp' cannot be null in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\api\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\api\app\Models\ModelUser.php(40): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\api\app\Controllers\login.php(56): App\Models\ModelUser->insert_user(Array)
+#6 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\login->insert()
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-23 19:13:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nomor_hp' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (:email:, :name:, :password:, :nomor_hp:)', [...], false)
+ 2 APPPATH\Models\ModelUser.php(40): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\login.php(56): App\Models\ModelUser->insert_user([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\login->insert()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 19:13:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nomor_hp' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (\'jd\', \'jf\', \'123\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (\'jd\', \'jf\', \'123\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (:email:, :name:, :password:, :nomor_hp:)', [...], false)
+ 4 APPPATH\Models\ModelUser.php(40): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\login.php(56): App\Models\ModelUser->insert_user([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\login->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 19:13:59 --> [Caused by] mysqli_sql_exception: Column 'nomor_hp' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (\'jd\', \'jf\', \'123\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (\'jd\', \'jf\', \'123\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (\'jd\', \'jf\', \'123\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `name`, `password`, `nomor_hp`) VALUES (:email:, :name:, :password:, :nomor_hp:)', [...], false)
+ 5 APPPATH\Models\ModelUser.php(40): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\login.php(56): App\Models\ModelUser->insert_user([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\login->insert()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 19:15:38 --> ErrorException: Undefined property: App\Controllers\login::$StokModel
+in APPPATH\Controllers\login.php on line 96.
+ 1 APPPATH\Controllers\login.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\login::$StokModel', 'C:\\xampp\\htdocs\\api\\app\\Controllers\\login.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\login->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 19:57:36 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'salonlilyan', 3306, '', 0)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\api\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\api\app\Models\ModelUser.php(34): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\api\app\Controllers\login.php(26): App\Models\ModelUser->cekUseremail('fasta@gmail.com')
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\login->login()
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\api\app\Models\ModelUser.php(34): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\api\app\Controllers\login.php(26): App\Models\ModelUser->cekUseremail('fasta@gmail.com')
+#6 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\login->login()
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-23 19:57:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:', [...], false)
+ 3 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\ModelUser.php(34): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\login.php(26): App\Models\ModelUser->cekUseremail('fasta@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\login->login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 19:58:14 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'salonlilyan', 3306, '', 0)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\api\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\api\app\Models\ModelUser.php(34): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\api\app\Controllers\login.php(26): App\Models\ModelUser->cekUseremail('fasta@gmail.com')
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\login->login()
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\api\app\Models\ModelUser.php(34): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\api\app\Controllers\login.php(26): App\Models\ModelUser->cekUseremail('fasta@gmail.com')
+#6 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\login->login()
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-23 19:58:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:', [...], false)
+ 3 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\ModelUser.php(34): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\login.php(26): App\Models\ModelUser->cekUseremail('fasta@gmail.com')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\login->login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 20:23:43 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=6704 in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 184)
+#1 C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'salonlilyan', 3306, '', 0)
+#2 C:\xampp\htdocs\api\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\api\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\api\app\Models\ModelBooking.php(68): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\api\app\Controllers\Booking.php(54): App\Models\ModelBooking->getRiwayat('1')
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+#9 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#10 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'salonlilyan', 3306, '', 0)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\api\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\api\app\Models\ModelBooking.php(68): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\api\app\Controllers\Booking.php(54): App\Models\ModelBooking->getRiwayat('1')
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#9 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\api\app\Models\ModelBooking.php(68): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\api\app\Controllers\Booking.php(54): App\Models\ModelBooking->getRiwayat('1')
+#6 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-23 20:23:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `booking`
+WHERE `customer_id` = :customer_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\ModelBooking.php(68): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Booking.php(54): App\Models\ModelBooking->getRiwayat('1')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 20:23:43 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=6704 in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 184)
+#1 C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'salonlilyan', 3306, '', 0)
+#2 C:\xampp\htdocs\api\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\api\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\api\app\Models\ModelBooking.php(68): CodeIgniter\Model->__call('get', Array)
+#7 C:\xampp\htdocs\api\app\Controllers\Booking.php(54): App\Models\ModelBooking->getRiwayat('1')
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+#9 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#10 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'salonlilyan', 3306, '', 0)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\api\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\api\app\Models\ModelBooking.php(68): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\api\app\Controllers\Booking.php(54): App\Models\ModelBooking->getRiwayat('1')
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#9 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\api\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\api\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\api\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\api\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\api\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\api\app\Models\ModelBooking.php(68): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\api\app\Controllers\Booking.php(54): App\Models\ModelBooking->getRiwayat('1')
+#6 C:\xampp\htdocs\api\system\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+#7 C:\xampp\htdocs\api\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#8 C:\xampp\htdocs\api\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\api\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-23 20:23:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `booking`
+WHERE `customer_id` = :customer_id:', [...], false)
+ 3 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\ModelBooking.php(68): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\Booking.php(54): App\Models\ModelBooking->getRiwayat('1')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Booking->get_booking('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 20:23:43 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-23 20:23:43 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-23 20:23:43 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-23 20:23:43 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-23 20:23:43 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-23 20:23:43 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-23 20:23:43 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
